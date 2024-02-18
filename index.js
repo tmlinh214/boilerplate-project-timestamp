@@ -29,7 +29,7 @@ app.get("/api/:date_string?", (req, res) => {
   let date;
   if (!dateString) {
     date = new Date();
-  } else if (!date.includes("-")) {
+  } else if (!dateString.includes("-")) {
     date = new Date(parseInt(dateString));
   } else {
     date = new Date(dateString);
