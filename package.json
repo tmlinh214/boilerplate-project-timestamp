@@ -4,6 +4,8 @@
   "description": "An FCC Backend Challenge",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node index.js"
   },
   "dependencies": {
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
+  "homepage": "https://tmlinh214.github.io/boilerplate-project-timestamp",
   "author": "freeCodeCamp <team@freecodecamp.org>",
   "keywords": [
     "node",
