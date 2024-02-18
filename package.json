@@ -24,8 +24,5 @@
     "express",
     "freeCodeCamp"
   ],
-  "license": "MIT",
-  "publishConfig": {
-    "tmlinh214:registry": "https://npm.pkg.github.com"
-  }
+  "license": "MIT"
 }
